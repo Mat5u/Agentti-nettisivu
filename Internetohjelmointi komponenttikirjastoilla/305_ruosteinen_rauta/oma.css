@@ -1,0 +1,36 @@
+.reuna{
+    border: solid 1px red;
+}
+
+.teksti{
+    width: auto;
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-bottom: 100px;
+}
+
+h2{
+    font-family: Barlow;
+    color: #054065;
+}
+
+p{
+    font-family: Barlow;
+    font-size: 16px;
+    font-weight: regular;
+    line-height: 1.4;
+    color: #054065;
+}
+
+
+.kuva {
+    
+    size: flex;
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-bottom: 100px;
+}
+
+.nappi{
+    margin-right: 100%;
+}
