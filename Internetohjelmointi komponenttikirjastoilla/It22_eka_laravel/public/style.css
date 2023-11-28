@@ -1,0 +1,190 @@
+/*Väliaikaset*/
+/*----------------*/
+.sivu{
+    background-color: gray;
+}
+
+.muste{
+    background-color: black;
+}
+/*----------------*/
+
+::placeholder{
+    color: white;
+}
+
+label { color: white !important;}
+
+p{
+    color:white;
+}
+
+input[type=radio]{
+    color: white;
+}
+
+/*Etusivun kuvan tekstit*/
+.overlay-text {
+    position: absolute;
+    color: #fff; 
+    top: 25%;
+    padding: 10px 20px; 
+    font-size: 45px; 
+    text-align: center;
+}
+
+.overlay-text2 {
+    position: absolute;
+    color: #fff; 
+    top: 45%;
+    padding: 10px 20px; 
+    font-size: 22px; 
+    text-align: center;
+}
+
+.overlay-text3 {
+    color: #fff; 
+    padding: 10px 20px; 
+    font-size: 60px; 
+    text-align: center;
+}
+
+.overlay-text4 {
+    color: #fff; 
+    font-size: 18px; 
+    text-align: center;
+}
+/*Napit*/
+.btn-primary, .btn-primary:hover, .btn-primary:active, .btn-primary:visited {
+    background-color: #740000 !important;
+    border-color: black !important;
+    color: white !important;
+}
+/*Pienet osat*/
+.smallpicture1{
+    width: 200px;
+    height: 200px;
+    background-color: rgb(228, 228, 228);
+    border-radius: 20px;
+    background-image: URL('img/pistol.png');
+    background-repeat: no-repeat;
+    background-size: auto 175px;
+}
+
+.smallpicture2{
+    width: 200px;
+    height: 200px;
+    background-color: rgb(228, 228, 228);
+    border-radius: 20px;
+    background-image: URL('img/kiikarit.png');
+    background-repeat: no-repeat;
+    background-size: auto 175px;
+}
+
+.smallpicture3{
+    width: 200px;
+    height: 200px;
+    background-color: rgb(228, 228, 228);
+    border-radius: 20px;
+    background-image: URL('img/korvanappi.png');
+    background-repeat: no-repeat;
+    background-size: auto 200px;
+}
+
+.smallpicture4{
+    width: 200px;
+    height: 200px;
+    background-color: rgb(228, 228, 228);
+    border-radius: 20px;
+    background-image: URL('img/yonakolasit.png');
+    background-repeat: no-repeat;
+    background-size: auto 200px;
+}
+
+.smallbox{
+    background-color: white;
+    border-radius: 20px;
+}
+
+.smallbox-text{
+    text-align: center;
+    font-size: 14px;
+}
+
+.price-text{
+    text-align: center;
+}
+
+/*center button*/
+.btn-center {
+    margin: auto;
+}
+
+.accordion 
+{
+	background-color: white;
+	color: black;
+	cursor: pointer;
+	padding: 18px;
+	width: 100%;
+	text-align: center;
+	font-size: 25px;
+	font-weight: bold;
+    border-radius: 20px;
+	border: none;
+	outline: none;
+	transition: 0.4s;
+}
+hr.button{
+    border-top: 3px solid grey;
+    width: 100%;
+}
+
+.pic1{
+    width: 800;
+    height: auto;
+}
+
+.custom-col {
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 20px;
+    width: 350px;
+    background-color: white;
+    border-radius: 1px;
+}
+
+.hr-lines:before{
+    content:"";
+    display: block;
+    height: 2px;
+    width: 100px;
+    position: absolute;
+    top: 50%;
+    left: 0;
+    background: gray;
+  }
+  
+  .hr-lines{
+    position: relative;
+  }
+  
+  .hr-lines{
+    position: relative;
+    /*  new lines  */
+    max-width: 300px;
+    margin: 10px auto;
+    text-align: center;
+  }
+  
+  .hr-lines:after{
+    content:" ";
+    height: 2px;
+    width: 100px;
+    background: gray;
+    display: block;
+    position: absolute;
+    top: 50%;
+    right: 0;
+  }
+  
